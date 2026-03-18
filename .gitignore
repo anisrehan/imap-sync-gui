@@ -1,0 +1,42 @@
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Test / type-check caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Local environment and secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Local app/runtime data
+*.log
+*.db
+*.sqlite
+*.sqlite3
+.config/
+
+# PyInstaller
+*.spec.bak
